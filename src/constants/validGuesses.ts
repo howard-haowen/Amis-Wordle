@@ -601,7 +601,7 @@ export const VALIDGUESSES = [
   'coyoh',
   "da'ad",
   'kapat',
-  ["dado'",
+  "dado'",
   "noli'",
   'dadoy',
   'ratar',
