@@ -1,5 +1,6 @@
 {
     "about": "About this game",
+    "gameName": "Amis, a language of Taiwan",
     "enterKey": "Enter",
     "deleteKey": "Delete",
     "notEnoughLetters": "Not enough letters",
@@ -9,9 +10,9 @@
     "howToPlay": "How to play",
     "instructions": "Guess the word in {{tries}} tries. After each guess, the color of the tiles will change to show how close your guess was to the word.",
     "pickYourLanguage": "Choose a language",
-    "correctSpotInstructions": "The letter W is in the word and in the correct spot.",
-    "wrongSpotInstructions": "The letter L is in the word but in the wrong spot.",
-    "notInWordInstructions": "The letter U is not in the word in any spot.",
+    "correctSpotInstructions": "The letter K is in the word and in the correct spot.",
+    "wrongSpotInstructions": "The letter N is in the word but in the wrong spot.",
+    "notInWordInstructions": "The letter M is not in the word in any spot.",
     "guessDistribution": "Guess Distribution",
     "statistics": "Statistics",
     "totalTries": "Total tries",
@@ -20,26 +21,73 @@
     "bestStreak": "Best streak",
     "newWordCountdown": "New word in",
     "share": "Share",
-    "firstExampleWord": [
-        "W",
-        "E",
-        "A",
-        "R",
-        "Y"
+    "winMessages": [
+        "Great Job!",
+        "Awesome",
+        "Well done!"
     ],
-    "secondExampleWord": [
-        "P",
-        "I",
-        "L",
-        "O",
-        "T"
+    "firstExampleWord": [{
+            "letter": "K",
+            "highlight": true
+        },
+        {
+            "letter": "I",
+            "highlight": false
+        },
+        {
+            "letter": "L",
+            "highlight": false
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "NG",
+            "highlight": false
+        }
     ],
-    "thirdExampleWord": [
-        "V",
-        "A",
-        "G",
-        "U",
-        "E"
+    "secondExampleWord": [{
+            "letter": "P",
+            "highlight": false
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "N",
+            "highlight": true
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "Y",
+            "highlight": false
+        }            
+    ],
+    "thirdExampleWord": [{
+            "letter": "N",
+            "highlight": false
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "N",
+            "highlight": false
+        },
+        {
+            "letter": "O",
+            "highlight": false
+        },
+        {
+            "letter": "M",
+            "highlight": true
+        }
     ],
     "aboutAuthorSentence": "This is an open source clone of the game Wordle adapted to {{language}} by <3>{{author}}</3>. ",
     "aboutCodeSentence": "Check out <1>the original code</1> by <3>Hannah Park</3> or have a look at <5>Aidan Pine's fork</5> and customize it for another language! ",
