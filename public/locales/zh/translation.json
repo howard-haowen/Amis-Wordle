@@ -1,17 +1,18 @@
 {
     "about": "關於本遊戲",
+    "gameName": "Pangcah, 阿美語",
     "enterKey": "輸入",
     "deleteKey": "刪除",
-    "notEnoughLetters": "字母數不足",
+    "notEnoughLetters": "字母數不足，請填滿方塊",
     "wordNotFound": "查無此單詞",
     "solution": "正解為 {{solution}}",
     "gameCopied": "已將您的輝煌戰績複製至剪貼簿，開始分享吧！",
     "howToPlay": "遊戲規則",
-    "instructions": "您總共有 {{tries}} 次猜測單詞的機會。每輸入一個單詞，方塊將會改變顏色，透過顏色的變化您將能推測正解。",
+    "instructions": "您總共有 {{tries}} 次猜測單詞的機會。輸入的詞必須填滿所有方塊。每輸入一個單詞，方塊將會改變顏色，透過顏色的變化您將能推測正解。",
     "pickYourLanguage": "選擇語言",
     "correctSpotInstructions": "字母 K 出現在正解當中，並且在正確的位置。",
     "wrongSpotInstructions": "字母 N 出現在正解當中，但不在正確的位置。",
-    "notInWordInstructions": "字母 O 不在正解當中。",
+    "notInWordInstructions": "字母 M 不在正解當中。",
     "guessDistribution": "猜詞分佈",
     "statistics": "統計",
     "totalTries": "總猜測次數",
@@ -20,26 +21,73 @@
     "bestStreak": "最佳連續獲勝次數",
     "newWordCountdown": "距離下個新單詞出現還有",
     "share": "分享",
-    "firstExampleWord": [
-        "K",
-        "I",
-        "L",
-        "A",
-        "NG"
+    "winMessages": [
+        "太棒了！",
+        "完美！",
+        "做得好！"
     ],
-    "secondExampleWord": [
-        "P",
-        "A",
-        "N",
-        "A",
-        "Y"
+    "firstExampleWord": [{
+            "letter": "K",
+            "highlight": true
+        },
+        {
+            "letter": "I",
+            "highlight": false
+        },
+        {
+            "letter": "L",
+            "highlight": false
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "NG",
+            "highlight": false
+        }
     ],
-    "thirdExampleWord": [
-        "N",
-        "A",
-        "N",
-        "O",
-        "M"
+    "secondExampleWord": [{
+            "letter": "P",
+            "highlight": false
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "N",
+            "highlight": true
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "Y",
+            "highlight": false
+        }            
+    ],
+    "thirdExampleWord": [{
+            "letter": "N",
+            "highlight": false
+        },
+        {
+            "letter": "A",
+            "highlight": false
+        },
+        {
+            "letter": "N",
+            "highlight": false
+        },
+        {
+            "letter": "O",
+            "highlight": false
+        },
+        {
+            "letter": "M",
+            "highlight": true
+        }
     ],
     "aboutAuthorSentence": "本遊戲源自 Wordle 開源專案，由<3>{{author}}</3>改編為阿美語版本。",
     "aboutCodeSentence": "原專案作者為<3>Hannah Park</3>，原始碼在<1>the original code</1>。本遊戲的開發依據為<5>Aidan Pine's fork</5>。",
