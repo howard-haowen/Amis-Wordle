@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amis-wordle/static/css/main.7013afd9.css",
-    "main.js": "/amis-wordle/static/js/main.717478c3.js",
+    "main.js": "/amis-wordle/static/js/main.707113fa.js",
     "static/js/787.f519c626.chunk.js": "/amis-wordle/static/js/787.f519c626.chunk.js",
     "static/media/BCSans-Bold.woff": "/amis-wordle/static/media/BCSans-Bold.252ecf87ea37c93b293c.woff",
     "static/media/BCSans-BoldItalic.woff": "/amis-wordle/static/media/BCSans-BoldItalic.73ed5137b2c4a42b754f.woff",
@@ -10,11 +10,11 @@
     "index.html": "/amis-wordle/index.html",
     "static/media/getFetch.cjs": "/amis-wordle/static/media/getFetch.c780682470504fffbd04.cjs",
     "main.7013afd9.css.map": "/amis-wordle/static/css/main.7013afd9.css.map",
-    "main.717478c3.js.map": "/amis-wordle/static/js/main.717478c3.js.map",
+    "main.707113fa.js.map": "/amis-wordle/static/js/main.707113fa.js.map",
     "787.f519c626.chunk.js.map": "/amis-wordle/static/js/787.f519c626.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7013afd9.css",
-    "static/js/main.717478c3.js"
+    "static/js/main.707113fa.js"
   ]
 }
